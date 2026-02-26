@@ -1,0 +1,25 @@
+{
+  "name": "GoSungrow2MQTT",
+  "slug": "gosungrow2mqtt",
+  "version": "1.0.0",
+  "description": "Bridge from Sungrow iSolarCloud API to MQTT",
+  "arch": ["armv7", "armhf", "aarch64", "amd64"],
+  "startup": "services",
+  "boot": "auto",
+  "host_network": true,
+  "webui": "none",
+  "options": {
+    "mqtt_broker": "mqtt://core-mosquitto:1883",
+    "mqtt_username": "",
+    "mqtt_password": "",
+    "mqtt_topic": "sungrow",
+    "ps_id": ""
+  },
+  "schema": {
+    "mqtt_broker": "str",
+    "mqtt_username": "str",
+    "mqtt_password": "str",
+    "mqtt_topic": "str",
+    "ps_id": "str"
+  }
+}
