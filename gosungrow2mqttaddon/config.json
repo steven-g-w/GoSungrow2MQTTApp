@@ -1,6 +1,6 @@
 {
-  "name": "GoSungrow2MQTT",
-  "slug": "gosungrow2mqtt",
+  "name": "GoSungrow2MQTT Add-on",
+  "slug": "gosungrow2mqttaddon",
   "version": "1.0.0",
   "description": "Bridge from Sungrow iSolarCloud API to MQTT",
   "arch": ["armv7", "armhf", "aarch64", "amd64"],
